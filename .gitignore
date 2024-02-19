@@ -1,0 +1,11 @@
+#log files
+log/
+
+#local data files
+data/
+
+# pycache
+*/__pycache__/
+
+# local wandb
+wandb/
