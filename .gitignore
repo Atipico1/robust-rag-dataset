@@ -9,3 +9,5 @@ data/
 
 # local wandb
 wandb/
+
+__pycache__/

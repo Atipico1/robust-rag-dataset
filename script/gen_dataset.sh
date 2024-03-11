@@ -11,5 +11,10 @@
 
 PYTHONPATH=../ python3 gen_dataset.py \
  --origin_path Atipico1/nq-test-valid-adversary-replace \
- --output_path Atipico1/nq-test-valid-adversary-replace-processed \
- --task default
+ --output_path Atipico1/nq-test-replace-format 
+
+
+PYTHONPATH=../ python3 gen_dataset.py \
+ --origin_path Atipico1/nq-test-valid_adv_passage \
+ --output_path Atipico1/nq-test-format \
+ --split train
